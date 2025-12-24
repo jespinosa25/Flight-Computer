@@ -1,4 +1,4 @@
-24763843480519712
+24792037068602273
 01x03 Pin Connector
 WURTH_61300311121
 
@@ -10,6 +10,13 @@ WURTH_61300311121
 WURTH_61300411121
 
 
+0
+4
+4
+1725672
+CONN_1725672_PXC
+
+1725672 
 0
 4
 4
@@ -27,6 +34,13 @@ audio belton reverb
 0
 7
 7
+BMI088
+QFN_BMI085_BOS
+
+BMI088 
+0
+16
+16
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -57273,6 +57287,20 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESP32-Mini
+ESP32S2MINI2N4R2
+56-SMD Module
+Integrated Circuit
+0
+73
+73
+FA-20H
+XTAL4P_FA-20H_EPS
+
+FA-20H 16.0000MF10Z-AJ0 
+0
+4
+4
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -58313,6 +58341,13 @@ Fuse
 Fuseholder_TR5_Littelfuse_No560_No460
 Fuse, Fuseholder, TR5, Littelfuse/Wickmann, No. 460, No560, https://www.littelfuse.com/~/media/electronics/datasheets/fuse_holders/littelfuse_fuse_holder_559_560_datasheet.pdf.pdf
 Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560 
+0
+2
+2
+GSPTS004102
+SW_PTS636_CNK
+
+PTS636 SM50J SMTR LFS 
 0
 2
 2
@@ -64686,6 +64721,27 @@ sadheheha
 0
 0
 0
+LD2980ABM33TR
+SOT23-5L_STM
+
+LD2980ABM33TR 
+0
+5
+5
+LD2980ABM33TR
+SOT23-5L_STM-L
+
+LD2980ABM33TR 
+0
+5
+5
+LD2980ABM33TR
+SOT23-5L_STM-M
+
+LD2980ABM33TR 
+0
+5
+5
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -65890,6 +65946,41 @@ Yellow 5381 Series LED
 0
 2
 2
+MAX-M10
+MOD18_MAX-M10M_UBL
+
+MAX-M10M-00B 
+0
+18
+18
+MAX-M10
+MOD18_MAX-M10M_UBL-L
+
+MAX-M10M-00B 
+0
+18
+18
+MAX-M10
+MOD18_MAX-M10M_UBL-M
+
+MAX-M10M-00B 
+0
+18
+18
+MMC5983MA
+MMC5983MA_MEM
+
+MMC5983MA 
+0
+16
+16
+MS560702BA03
+SON8_MS5611_TEC
+
+MS560702BA03-50 
+0
+8
+8
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -91279,6 +91370,27 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SI2302-TP
+SOT-23_MCC
+
+SI2302-TP 
+0
+3
+3
+SI2302-TP
+SOT-23_MCC-L
+
+SI2302-TP 
+0
+3
+3
+SI2302-TP
+SOT-23_MCC-M
+
+SI2302-TP 
+0
+3
+3
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
