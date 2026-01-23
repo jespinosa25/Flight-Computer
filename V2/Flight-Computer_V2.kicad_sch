@@ -6528,6 +6528,16 @@
 		)
 		(uuid "200d105c-3650-43b0-bfca-4c42e2604413")
 	)
+	(text "needed?"
+		(exclude_from_sim no)
+		(at 32.766 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "21efa177-9064-43a7-8b80-facb6a6e79eb")
+	)
 	(text "RF Module"
 		(exclude_from_sim no)
 		(at 81.788 134.62 0)
@@ -17834,7 +17844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI2302-TP:SOT-23_MCC"
+		(property "Footprint" "SI2302-TP:SOT-23_MCC-M"
 			(at 331.47 222.25 0)
 			(effects
 				(font
@@ -18855,7 +18865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SI2302-TP:SOT-23_MCC"
+		(property "Footprint" "SI2302-TP:SOT-23_MCC-M"
 			(at 331.47 182.88 0)
 			(effects
 				(font
