@@ -6528,6 +6528,16 @@
 		)
 		(uuid "200d105c-3650-43b0-bfca-4c42e2604413")
 	)
+	(text "make smaller"
+		(exclude_from_sim no)
+		(at 69.596 259.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "203861c6-a3bc-436a-9e91-eedfc2a81510")
+	)
 	(text "needed?"
 		(exclude_from_sim no)
 		(at 32.766 198.12 0)
@@ -7247,6 +7257,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 140.97) (xy 196.85 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b7831d-2951-43c1-aa08-a594d0ed2fe6")
+	)
+	(wire
+		(pts
 			(xy 360.68 100.33) (xy 364.49 100.33)
 		)
 		(stroke
@@ -7294,6 +7314,16 @@
 			(type default)
 		)
 		(uuid "2ea38c9c-9ee2-4360-aa18-3800ff4e95ff")
+	)
+	(wire
+		(pts
+			(xy 227.33 163.83) (xy 231.14 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3030c329-d0dd-481c-99d3-b0d17d358fec")
 	)
 	(wire
 		(pts
@@ -7724,6 +7754,16 @@
 			(type default)
 		)
 		(uuid "5ae298a4-9806-4eea-b87c-72eb8e84141e")
+	)
+	(wire
+		(pts
+			(xy 227.33 176.53) (xy 231.14 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b69acac-8938-4b81-b995-62795af62801")
 	)
 	(wire
 		(pts
@@ -8167,6 +8207,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 161.29) (xy 231.14 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d388a2-62ca-4266-9de3-2022f5cbc711")
+	)
+	(wire
+		(pts
 			(xy 292.1 55.88) (xy 292.1 59.69)
 		)
 		(stroke
@@ -8274,6 +8324,16 @@
 			(type default)
 		)
 		(uuid "9fa38dc0-2d0d-4f47-94ee-9e485c2a8285")
+	)
+	(wire
+		(pts
+			(xy 227.33 168.91) (xy 231.14 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ef082f-cdbd-46ac-8cee-c155356c22cd")
 	)
 	(wire
 		(pts
@@ -9087,6 +9147,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 166.37) (xy 231.14 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb35df17-1ca9-4bba-bcfc-2ded31f35963")
+	)
+	(wire
+		(pts
 			(xy 339.09 232.41) (xy 351.79 232.41)
 		)
 		(stroke
@@ -9124,6 +9194,16 @@
 			(type default)
 		)
 		(uuid "ebb21672-9e15-4fbe-abf6-a4a87aa01b7b")
+	)
+	(wire
+		(pts
+			(xy 227.33 173.99) (xy 231.14 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec111b45-01ae-4756-9f2d-6abe92ce3172")
 	)
 	(wire
 		(pts
@@ -9591,6 +9671,28 @@
 			)
 		)
 	)
+	(global_label "SCK"
+		(shape input)
+		(at 231.14 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "357de97a-cff8-4fe1-bc3d-d07a347dffa7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.8747 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FIRE_B"
 		(shape input)
 		(at 67.31 237.49 90)
@@ -9631,6 +9733,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RXD1"
+		(shape input)
+		(at 231.14 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45e80a79-2bcf-4911-8b1d-4a62a9e1af86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.0842 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9967,7 +10091,7 @@
 	)
 	(global_label "RXD1"
 		(shape input)
-		(at 186.69 53.34 180)
+		(at 186.69 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9977,7 +10101,7 @@
 		)
 		(uuid "6db745eb-4759-4568-a227-f331579bb22d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.7458 53.34 0)
+			(at 178.7458 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10110,6 +10234,28 @@
 		(uuid "82906f94-194b-42dc-a617-ab5a3e71bbb4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.7818 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TXD1"
+		(shape input)
+		(at 231.14 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "831edd7a-7c9b-4b44-95bb-7b7b6ae8ecf0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.7818 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10308,6 +10454,28 @@
 		(uuid "8e00a92b-8b94-40e1-8412-665ba498b40b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 36.83 250.2286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 231.14 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90347c7a-519f-42e0-ac23-71384a9b4a7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.7214 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10559,6 +10727,28 @@
 			)
 		)
 	)
+	(global_label "MOSI"
+		(shape input)
+		(at 231.14 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b254811f-63f9-4a6e-8161-14ee503facfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 238.7214 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GYRO_INT"
 		(shape input)
 		(at 365.76 43.18 0)
@@ -10715,22 +10905,22 @@
 	)
 	(global_label "CS_FLASH"
 		(shape input)
-		(at 171.45 158.75 180)
+		(at 231.14 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c5d82a39-5532-44a1-8edb-50bf4f2f8c19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.2724 158.75 0)
+			(at 243.3176 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10803,7 +10993,7 @@
 	)
 	(global_label "TXD1"
 		(shape input)
-		(at 186.69 50.8 180)
+		(at 186.69 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10813,7 +11003,7 @@
 		)
 		(uuid "c908d26f-0fd8-48fd-88c4-971c1c3e6b9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.0482 50.8 0)
+			(at 179.0482 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11465,7 +11655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 31.75 241.3 0)
 			(effects
 				(font
@@ -11530,7 +11720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 46.99 264.16 0)
 			(effects
 				(font
@@ -11595,7 +11785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 24.13 264.16 0)
 			(effects
 				(font
@@ -12843,7 +13033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 39.37 241.3 0)
 			(effects
 				(font
@@ -13039,7 +13229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 111.76 49.53 0)
 			(effects
 				(font
@@ -13516,7 +13706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 46.99 241.3 0)
 			(effects
 				(font
@@ -13850,7 +14040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 54.61 264.16 0)
 			(effects
 				(font
@@ -14051,7 +14241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 69.85 241.3 0)
 			(effects
 				(font
@@ -14458,7 +14648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 54.61 241.3 0)
 			(effects
 				(font
@@ -14947,7 +15137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 16.51 264.16 0)
 			(effects
 				(font
@@ -15299,7 +15489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 31.75 264.16 0)
 			(effects
 				(font
@@ -16946,7 +17136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 77.47 241.3 0)
 			(effects
 				(font
@@ -17612,7 +17802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 135.89 49.53 0)
 			(effects
 				(font
@@ -18181,7 +18371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 123.19 49.53 0)
 			(effects
 				(font
@@ -18258,7 +18448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
 			(at 62.23 241.3 0)
 			(effects
 				(font
